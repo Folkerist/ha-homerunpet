@@ -119,4 +119,4 @@ pip install aiohttp pytest pytest-asyncio && python -m pytest -q tests
 
 ## License
 
-Code: MIT. The homerunPET name and logo belong to their owner and are not licensed by this project.
+Code: MIT (see `LICENSE`). The homerunPET name and logo belong to their owner and are not licensed by this project (see `NOTICE`).

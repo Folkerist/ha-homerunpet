@@ -1,0 +1,10 @@
+homerunPET for Home Assistant
+Copyright (c) 2026 Folk
+
+The source code of this project is licensed under the MIT License (see LICENSE).
+
+homerunPET, 霍曼宠物 and the homerunPET logo are trademarks of their owner,
+Shenzhen Qianhai Homerun Smart Technology Co., Ltd. This project is not affiliated
+with, endorsed by or supported by them. The name and the logo (the image files in
+custom_components/homerun/brand/) are used only to identify the devices this
+integration works with, and they are not licensed under the MIT License.
