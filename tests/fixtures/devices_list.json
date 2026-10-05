@@ -1,0 +1,36 @@
+{
+ "code": "200",
+ "msg": "Операция прошла успешно.",
+ "data": {
+  "list": [
+   {
+    "id": 2000001,
+    "deviceSerial": "C5F40390:TEST00001",
+    "deviceName": "Smart Litter Box CS1",
+    "status": 1,
+    "roomId": 3000001,
+    "roomName": "Коридор",
+    "roomIconUrl": "<redacted>",
+    "pic": "<redacted>",
+    "pic1": "<redacted>",
+    "pic2": "<redacted>",
+    "deviceModelPic": "<redacted>",
+    "avatarUrl": "<redacted>",
+    "nikename": "<redacted>",
+    "familyId": 1000001,
+    "familyName": "Семья",
+    "devicesProductId": 10,
+    "devicesSeriesId": 6,
+    "devicesModelId": 18,
+    "deviceCategory": "CLB100A",
+    "categ": "CatLitterBox",
+    "model": "C5F40390",
+    "isCamera": 0,
+    "admin": 1,
+    "faqUrl": "",
+    "isBindCamera": 0
+   }
+  ],
+  "total": 1
+ }
+}

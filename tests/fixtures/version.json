@@ -1,0 +1,10 @@
+{
+ "code": "200",
+ "msg": "Операция прошла успешно.",
+ "data": {
+  "isNeedUpgrade": 0,
+  "latestVersion": "V1.4.5 build 240429",
+  "isUpgrading": 0,
+  "currentVersion": "V1.4.5 build 240429"
+ }
+}

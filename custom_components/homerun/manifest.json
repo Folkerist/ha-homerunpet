@@ -1,0 +1,14 @@
+{
+  "domain": "homerun",
+  "name": "homerunPET",
+  "codeowners": [
+    "@folkerist"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/folkerist/ha-homerunpet",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/folkerist/ha-homerunpet/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

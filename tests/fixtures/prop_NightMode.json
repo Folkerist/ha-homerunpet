@@ -1,0 +1,16 @@
+{
+ "code": "200",
+ "msg": "",
+ "data": {
+  "meta": {
+   "code": 200,
+   "message": "操作成功",
+   "moreInfo": null
+  },
+  "data": {
+   "Switch": false,
+   "StartTimeInt": 79200,
+   "EndTimeInt": 28800
+  }
+ }
+}

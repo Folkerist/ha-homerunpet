@@ -1,0 +1,160 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "homerunPET",
+        "description": "Paste the token the app already uses (x-token). It is shown in the phone log: open the app, connect the phone with USB debugging and run `adb logcat -d | grep -m1 -oE 'x-token: [^ ]+'`. Reusing it does not log the phone out.",
+        "data": {
+          "token": "Token",
+          "region": "Cloud region",
+          "allow_password_login": "No token: log in with phone and password (risky)"
+        },
+        "data_description": {
+          "allow_password_login": "A fresh login may log the homerunPET app on your phone out of the account (the cloud keeps one session). If the account is tied to a phone number you cannot receive SMS on, you may lose access. Prefer the token."
+        }
+      },
+      "password": {
+        "title": "Password login",
+        "description": "A fresh login may log the homerunPET app on your phone out of the account (the cloud keeps one session). If the account is tied to a phone number you cannot receive SMS on, you may lose access. Prefer the token.",
+        "data": {
+          "area_code": "Country code",
+          "phone": "Phone",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Token expired",
+        "description": "The cloud rejected the token (code 4001). Take a fresh one from the app the same way.",
+        "data": {
+          "token": "Token"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The token or password was rejected.",
+      "cannot_connect": "Cannot reach the homerun cloud.",
+      "no_devices": "No litter boxes in this account.",
+      "token_required": "Enter the token, or tick the password login option."
+    },
+    "abort": {
+      "already_configured": "This account is already added.",
+      "reauth_successful": "Token updated.",
+      "wrong_account": "This token belongs to another account."
+    }
+  },
+  "selector": {
+    "region": {
+      "options": {
+        "cn": "China",
+        "eu": "Europe",
+        "us": "USA",
+        "sgp": "Singapore",
+        "ind": "India",
+        "sa": "Saudi Arabia"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "task": {
+        "name": "Activity",
+        "state": {
+          "idle": "Idle",
+          "cleaning": "Cleaning",
+          "refilling": "Adding litter",
+          "litter_cleaning": "Cleaning litter",
+          "leveling": "Leveling",
+          "entrance_up": "Entrance up",
+          "resetting": "Resetting",
+          "cat_inside": "Cat inside"
+        }
+      },
+      "visits_today": {
+        "name": "Visits today"
+      },
+      "last_visit": {
+        "name": "Last visit"
+      },
+      "cat_weight": {
+        "name": "Cat weight"
+      },
+      "visit_duration": {
+        "name": "Last visit duration"
+      },
+      "cleanings_today": {
+        "name": "Cleanings today"
+      },
+      "last_clean": {
+        "name": "Last cleaning"
+      },
+      "firmware": {
+        "name": "Firmware"
+      },
+      "faults": {
+        "name": "Faults"
+      }
+    },
+    "binary_sensor": {
+      "online": {
+        "name": "Online"
+      },
+      "waste_bin_full": {
+        "name": "Waste bin full"
+      },
+      "litter_reservoir_low": {
+        "name": "Litter reservoir low"
+      },
+      "drum_litter_low": {
+        "name": "Drum litter low"
+      },
+      "has_fault": {
+        "name": "Problem"
+      }
+    },
+    "number": {
+      "clean_delay": {
+        "name": "Cleaning delay after the cat leaves"
+      }
+    },
+    "switch": {
+      "auto_clean": {
+        "name": "Auto clean"
+      },
+      "night_mode": {
+        "name": "Night mode"
+      },
+      "child_lock": {
+        "name": "Child lock"
+      },
+      "kitten_protection": {
+        "name": "Kitten protection"
+      },
+      "auto_refill": {
+        "name": "Auto litter refill"
+      },
+      "auto_burial": {
+        "name": "Auto cover"
+      }
+    },
+    "button": {
+      "clean_now": {
+        "name": "Clean now"
+      },
+      "refill_litter": {
+        "name": "Add litter"
+      }
+    },
+    "event": {
+      "cat_visit": {
+        "name": "Cat visit",
+        "state_attributes": {
+          "event_type": {
+            "state": {
+              "cat_visit": "Cat visit"
+            }
+          }
+        }
+      }
+    }
+  }
+}

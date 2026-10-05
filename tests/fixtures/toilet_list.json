@@ -1,0 +1,51 @@
+{
+ "code": "200",
+ "msg": "",
+ "data": {
+  "list": [
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 12:10:44",
+    "weight": 3794,
+    "duration": 50,
+    "deviceSerial": "C5F40390:TEST00001"
+   },
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 13:21:49",
+    "weight": 5143,
+    "duration": 54,
+    "deviceSerial": "C5F40390:TEST00001"
+   },
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 13:31:28",
+    "weight": 1479,
+    "duration": 17,
+    "deviceSerial": "C5F40390:TEST00001"
+   },
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 13:31:57",
+    "weight": 3778,
+    "duration": 18,
+    "deviceSerial": "C5F40390:TEST00001"
+   },
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 13:54:49",
+    "weight": 5147,
+    "duration": 122,
+    "deviceSerial": "C5F40390:TEST00001"
+   },
+   {
+    "doDate": "2026-10-05",
+    "dateTime": "2026-10-05 14:00:39",
+    "weight": 5127,
+    "duration": 183,
+    "deviceSerial": "C5F40390:TEST00001"
+   }
+  ],
+  "total": 6
+ }
+}
