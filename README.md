@@ -10,6 +10,10 @@ It talks to the vendor cloud the same way the phone app does. There is no local 
 > **Not affiliated with, endorsed by or supported by Shenzhen Qianhai Homerun Smart Technology Co., Ltd.**
 > It uses an undocumented API that can change or disappear at any time. Using it may break the
 > app's terms of service; use it at your own risk.
+>
+> homerunPET, 霍曼宠物 and the homerunPET logo are trademarks of their owner. They are used here
+> only to identify the devices this integration works with; the logo in
+> `custom_components/homerun/brand/` is not covered by this project's MIT license.
 
 [Русский — ниже](#по-русски)
 
@@ -95,6 +99,8 @@ pip install aiohttp pytest pytest-asyncio && python -m pytest -q tests
 проверена на **CS106** с китайским аккаунтом. Работает через облако производителя, как приложение;
 локального управления у этих лотков нет. С производителем никак не связана, API недокументирован
 и может измениться; использование может нарушать пользовательское соглашение приложения.
+Название homerunPET и логотип принадлежат их владельцу и используются только чтобы обозначить
+совместимые устройства; на логотип лицензия MIT не распространяется.
 
 **Вход.** Облако держит одну сессию на аккаунт: новый вход может выкинуть телефон из приложения,
 а китайские аккаунты входят по SMS. Поэтому интеграция по умолчанию берёт токен приложения:
@@ -113,4 +119,4 @@ pip install aiohttp pytest pytest-asyncio && python -m pytest -q tests
 
 ## License
 
-MIT
+Code: MIT. The homerunPET name and logo belong to their owner and are not licensed by this project.
